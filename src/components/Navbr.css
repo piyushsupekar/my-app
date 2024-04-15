@@ -1,0 +1,15 @@
+.buto{
+    transition:0.2s ease-in-out;
+    border-color:cornflowerblue ;
+    color: cornflowerblue ;
+}
+
+.navbar{
+    color: white;
+}
+.buto:hover{
+    color: white;
+    background-color: cornflowerblue;
+    border-color: var(--bs-btn-hover-border-color);
+    transform: scale(1.2);
+}
